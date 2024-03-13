@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inputColor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="mt-40 bg-black p-2 grid place-items-center justify-center">
+    <div class=" w-40 h-40 flex rounded " id="colorBox"
+     style=" background-image: url(Johnny-Sins.png); background-position: center;
+      background-size: cover; align-items: center; justify-content: center;">
+    </div>
+    <input placeholder="Width" type="number" onkeyup="change()" id="Width" 
+    class="mt-5 w-40 rounded outline-none pl-2 pt-1 pb-1" >
+    <input placeholder="Height" type="number" onkeyup="change()" id="Height" 
+    class="mt-1 w-40 rounded outline-none pl-2 pt-1 pb-1" >
+    <input placeholder="Blur" type="number" onkeyup="change()" id="Blur" 
+    class="mt-1 w-40 rounded outline-none pl-2 pt-1 pb-1" >
+    <input hidden placeholder="Dropshadow" type="text" onkeyup="change()" id="Dropshadow" 
+    class="mt-1 w-40 rounded outline-none pl-2 pt-1 pb-1" >
+    <script src="script.js"></script>
+</body>
+</html>
